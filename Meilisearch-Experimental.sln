@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeilisearchExp", "src\MeilisearchExp\MeilisearchExp.csproj", "{D7D9C649-E487-4E9B-8974-1AF284A04D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeilisearchExp.Tests", "tests\MeilisearchExp.Tests\MeilisearchExp.Tests.csproj", "{26EF31AA-4A44-468B-AE46-B4660173C379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeilisearchExp.OpenTelemetry", "src\MeilisearchExp.OpenTelemetry\MeilisearchExp.OpenTelemetry.csproj", "{890743EE-FC46-4716-B37B-2255E668792E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meilisearch.Console", "tests\Meilisearch.Console\Meilisearch.Console.csproj", "{D850C8C0-CC0F-4762-AC26-89B9755C82F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7D9C649-E487-4E9B-8974-1AF284A04D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D9C649-E487-4E9B-8974-1AF284A04D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D9C649-E487-4E9B-8974-1AF284A04D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D9C649-E487-4E9B-8974-1AF284A04D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EF31AA-4A44-468B-AE46-B4660173C379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EF31AA-4A44-468B-AE46-B4660173C379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EF31AA-4A44-468B-AE46-B4660173C379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EF31AA-4A44-468B-AE46-B4660173C379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890743EE-FC46-4716-B37B-2255E668792E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890743EE-FC46-4716-B37B-2255E668792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890743EE-FC46-4716-B37B-2255E668792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890743EE-FC46-4716-B37B-2255E668792E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D850C8C0-CC0F-4762-AC26-89B9755C82F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D850C8C0-CC0F-4762-AC26-89B9755C82F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D850C8C0-CC0F-4762-AC26-89B9755C82F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D850C8C0-CC0F-4762-AC26-89B9755C82F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
