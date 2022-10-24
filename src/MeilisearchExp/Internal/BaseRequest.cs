@@ -41,6 +41,7 @@ namespace MeilisearchExp.Indexes
 
                 if (response.IsSuccessStatusCode)
                 {
+                    TraceReceivedFirstResponse();
                     using (var stream = await response.Content.ReadAsStreamAsync())
                     {
                         var results = await JsonSerializer.DeserializeAsync<TResponse>(stream,
@@ -82,6 +83,14 @@ namespace MeilisearchExp.Indexes
             }
         }
 
+        internal void TraceReceivedFirstResponse()
+        {
+            if (CurrentActivity != null)
+            {
+                MeilisearchActivitySource.ReceivedFirstResponse(CurrentActivity);
+            }
+        }
+        
         private void TraceRequestStop()
         {
             if (CurrentActivity != null)

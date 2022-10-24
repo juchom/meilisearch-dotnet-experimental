@@ -26,6 +26,12 @@ namespace MeilisearchExp
             return activity;
         }
 
+        internal static void ReceivedFirstResponse(Activity activity)
+        {
+            var activityEvent = new ActivityEvent("received-first-response");
+            activity.AddEvent(activityEvent);
+        }
+        
         internal static void RequestStop(Activity activity)
         {
             activity.SetTag("otel.status_code", "OK");
